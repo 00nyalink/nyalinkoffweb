@@ -18,4 +18,16 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* globals.css 或其他样式文件 */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* 确保背景覆盖整个视口 */
+  background-image: url('/images/bg.svg'); /* 使用SVG图像作为背景 目前阶段是偷了虹的背景 */
+  background-size: cover; /* 使背景图像填满整个容器 */
+  background-attachment: fixed; /* 背景固定不随滚动移动 */
+  background-position: center center; /* 背景居中 */
 }
