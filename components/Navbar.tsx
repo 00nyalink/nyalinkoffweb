@@ -15,7 +15,7 @@ export default function Navbar() {
         {/* 导航链接 */}
         <ul className="flex space-x-8 text-lg font-medium">
           <li><Link href="/" className="text-gray-900 hover:border-b-4 hover:border-black pb-4">主页</Link></li>
-          <li><Link href="/services" className="text-gray-900  hover:border-b-4 hover:border-black pb-4">产品与服务</Link></li>
+          <li><Link href="/products-service" className="text-gray-900  hover:border-b-4 hover:border-black pb-4">产品与服务</Link></li>
           <li><Link href="/partners" className="text-gray-900 hover:border-b-4 hover:border-black pb-4">资源与合作商</Link></li>
           <li><Link href="/contact" className="text-gray-900 hover:border-b-4 hover:border-black pb-4">联系我们</Link></li>
         </ul>
